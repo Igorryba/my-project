@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background-color: #ADD8E6;
+}
+
+.top-container {
+    background-color: #ADD8E6;
+    color: #20B2AA;
+    padding-top: 50px;
+}
+.text {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.one {
+    text-decoration-line: underline;
+    margin-bottom: 50px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 0;
+
+    
+}
+
+.snowing {
+    position: absolute;
+    left: 450px;
+    top: 300px;
+}
+.snowing2 {
+    position:absolute;
+    top:300px;
+    right: 450px;
+}
+
+.middle-container {
+    text-align: center;
+    background-color: white;
+    margin: 100px 0;
+}
+
+.me {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #ADD8E6;
+}
+
+.about {
+    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #20B2AA;
+}
+
+.mch2 {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    margin: auto;
+}
+
+hr {
+    border: dotted wheat 10px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    text-align: left;
+    margin: 100px auto 0 auto;
+    width: 50%;
+}
+
+.contain {
+    font-family: 'Caveat', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #20B2AA;
+} 
+
+.color {
+    color: #20B2AA;
+}
+
+.flex {
+    display: flex;
+    margin: auto;
+}
+
+.this {
+    width: 50%;
+    margin: auto;
+    color: #20B2AA;
+}
+
+@media (max-width: 600px) {
+    .flex {
+        display: block;
+    }
+}
+
+.btn {
+    border-radius: 60px;
+    color: white;
+    background-color: #20B2AA;
+    border-color: #ADD8E6;
+    font-size: large;
+    text-decoration: none;
+}
+
+.abcde {
+    flex: 1;
+    margin: auto;
+}
+
+.mx-auto > p {
+    margin-bottom: 50px;
+}
+
+.bottom-container {
+    background-color: #ADD8E6;
+    color: white;
+    margin-top: 100px;
+    border-bottom: #20B2AA;
+    text-align: center;
+}
+
+
+.finish {
+    color: #20B2AA;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-link {
+    color: #20B2AA;
+    text-decoration: none;
+}
